@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index 프로퍼티</title>
+    <style>
+        img {
+            position: absolute;
+        }
+        div {
+            position: absolute;
+        }
+        #cat1 { z-index: 1; }
+        #cat2 { z-index: 2; }
+        #cat3 { z-index: 3; }
+        #cat4 { z-index: 4; }
+    </style>
+</head>
+<body>
+    <h3>z-index 프로퍼티</h3>
+    <hr>
+    <div>
+        <img id="cat1" src="img/cat1.jpg" width="100px" height="100px" alt="스페이드A">
+        <img id="cat2" src="img/cat2.jpg" width="100px" height="100px" style="left: 30px; top: 30px;">
+        <img id="cat3" src="img/cat3.jpg" width="100px" height="100px" style="left: 60px; top: 60px;">
+        <img id="cat4" src="img/cat4.jpg" width="100px" height="100px" style="left: 90px; top: 90px;">
+    </div>
+</body>
+</html>
